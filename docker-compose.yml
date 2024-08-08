@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  terraria:
+    container_name: terraria
+    image: ryshe/terraria:latest
+    stdin_open: true # docker run -i
+    tty: true # docker run -t
+    environment:
+      - WORLD_FILENAME=world.wld
+      - CONFIGPATH=config.json
+      - autocreate=3
+    ports:
+      - 17777:17777
+    restart: unless-stopped

@@ -1,0 +1,16 @@
+{
+  "world": "/root/.local/share/Terraria/Worlds/world.wld",
+  "autocreate": 3,
+  "seed": "",
+  "difficulty": 3,
+  "maxplayers": 10,
+  "port": 17777,
+  "password": "potato123",
+  "motd": "Welcome techerbou atay!",
+  "worldname": "Potato",
+  "banlist": "banlist.txt",
+  "secure": true,
+  "npcstream": 60,
+  "priority": 1,
+  "upnp": true
+}
